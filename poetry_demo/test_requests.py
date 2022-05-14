@@ -2,4 +2,5 @@ import requests
 
 url = "https://www.baidu.com"
 r = requests.get(url)
-r.text
+data_text = r.text
+print(data_text)
